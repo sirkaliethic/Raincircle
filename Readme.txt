@@ -5,7 +5,7 @@ Using basic ideas and technic,entering into the Worldwideweb.
 It have my creative Art,Grapics,and small write-up.
 
 
-Even in the middle of Trilions of selfies and Photographs, the Fine-Art should not diminished.
+Even in the middle of Trillions of selfies and Photographs, the Fine-Art should not diminished.
 
 
 
