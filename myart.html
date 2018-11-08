@@ -52,7 +52,7 @@ src="style/logo.jpg" width="444" height="138"></span></span></span></p>
  .navbar {
     overflow: hidden;
     background-color: #3336;
-    font-family: Helvetica, Arial, san-serif,Times New Roman,Georgia;
+    font-family: Helvetica,Bamini, Arial, san-serif,Times New Roman,Georgia;
 }
 
  .navbar a {
@@ -103,52 +103,91 @@ style="color:#d00f35">Welcome</span></span></span></span></span></h2>
 <p></p>
 <p></p>
 
-<p></p>
+<h2 style="font-size: 16pt,"></h2>
+<h2
+style="text-align:center;margin-left:auto;margin-right:auto;color:#8000ff"><span
+style="color:#379d91"><span style="color:#400080">Gallery</span></span></h2>
+<style type="text/css">
 
-<p></p>
+ .gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
 
+ .thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
 
-<p><img alt="T1f" src="style/IMG_2018_T1f.jpg" width="600" height="380"></p>
+ .thumbnail:hover{
+background-color: transparent;
+}
 
-<p></p>
+ .thumbnail:hover img{
+border: 1px solid blue;
+}
 
-<p><img alt="T2f" src="style/IMG_2018_T2f.jpg" width="600" height="380"></p>
+ .thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed blue;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
 
-<p style="text-align:left;margin-left:0;margin-right:auto;"><img alt="N3f"
-src="style/IMG_2018_N3f.jpg" width="405" height="555"> <img alt="N4f"
-src="style/IMG_2018_N4f.jpg" width="405" height="555"></p>
+ .thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
 
-<p></p>
+ .thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+</style>
 
-<p></p>
-
-<p></p>
-
-<p style="text-align:left;margin-left:0;margin-right:auto;"><img alt="N5f"
-src="style/IMG_2018_N5f.jpg" width="405" height="555"> <img alt="N6f"
-src="style/IMG_2018_N6f.jpg" width="405" height="555"></p>
-
-<p></p>
-
-<p></p>
-
-<p></p>
-
-<p></p>
-<img alt="N12f" src="style/IMG_2018_N12f.jpg" width="380" height="600"><img
-alt="N14f" src="style/IMG_2018_N14f.jpg" width="380" height="600"> 
-
-<p style="text-align:left;margin-left:0;margin-right:auto;"></p>
-
-<p></p>
-
-<p></p>
-
-<p></p>
-
-<p></p>
-
-<p></p>
+<div class="gallerycontainer">
+<a class="thumbnail" href="#thumb"><img src="media/IMG_2018_T1f.jpg"
+width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_T1f.jpg"><br>
+K.Ethiraj.</span></a> <a class="thumbnail" href="#thumb"><img
+src="media/IMG_2018_T2f.jpg" width="77px" height="77px" border="0"><span
+style="color:#379d91"></span><span><img src="media/IMG_2018_T2f.jpg"><br>
+K.Ethiraj.</span></a> <br>
+<a class="thumbnail" href="#thumb"><img src="media/IMG_2018_N5f.jpg"
+width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N5f.jpg"><br>
+K.Ethiraj.</span></a> <a class="thumbnail" href="#thumb"><img
+src="media/IMG_2018_N4f.jpg" width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N4f.jpg"><br>
+K.Ethiraj.</span></a> <br>
+<a class="thumbnail" href="#thumb"><img src="media/IMG_2018_10f.jpg"
+width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_10f.jpg"><br>
+K.Ethiraj.</span></a> <a class="thumbnail" href="#thumb"><img
+src="media/IMG_2018_11f.jpg" width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_11f.jpg"><br>
+K.Ethiraj.</span></a> <br>
+<a class="thumbnail" href="#thumb"><img src="media/IMG_2018_N3f.jpg"
+width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N3f.jpg"><br>
+K.Ethiraj.</span></a> <a class="thumbnail" href="#thumb"><img
+src="media/IMG_2018_N6f.jpg" width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N6f.jpg"><br>
+K.Ethiraj.</span></a> <br>
+<a class="thumbnail" href="#thumb"><img src="media/IMG_2018_N14f.jpg"
+width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N14f.jpg"><br>
+K.Ethiraj.</span></a> <a class="thumbnail" href="#thumb"><img
+src="media/IMG_2018_N15f.jpg" width="77px" height="77px" border="0"><span><img
+src="media/IMG_2018_N15f.jpg"><br>
+K.Ethiraj.</span></a> <br>
+</div>
 
 <p style="text-align:left;margin-left:0;margin-right:auto;"></p>
 
