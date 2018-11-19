@@ -5,7 +5,7 @@ Welcome.
 
 This is my personal skill development trial.
 
-Using basic ideas and technic,entering into the Worldwideweb.
+Using basic ideas and technic,entering into the worldwideweb.
 
 It have my creative Art,Grapics,and small write-up.
 
